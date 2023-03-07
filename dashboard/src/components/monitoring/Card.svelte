@@ -8,7 +8,7 @@
 
     try {
       let response = await fetch(
-        "https://analysis.ccbluex.net/api/monitor/delete",
+        "https://analytics.ccbluex.net/api/monitor/delete",
         {
           method: "POST",
           mode: "no-cors",

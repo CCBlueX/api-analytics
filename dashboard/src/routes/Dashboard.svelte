@@ -84,7 +84,7 @@
     userID = formatUUID(userID);
     try {
       const response = await fetch(
-        `https://analysis.ccbluex.net/api/requests/${userID}`
+        `https://analytics.ccbluex.net/api/requests/${userID}`
       );
       if (response.status == 200) {
         const json = await response.json();

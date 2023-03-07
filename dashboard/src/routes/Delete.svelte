@@ -4,7 +4,7 @@
   async function genAPIKey() {
     setState("loading");
     const response = await fetch(
-      `https://analysis.ccbluex.net/api/delete/${apiKey}`
+      `https://analytics.ccbluex.net/api/delete/${apiKey}`
     );
 
     if (response.status === 200) {

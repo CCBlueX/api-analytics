@@ -3,6 +3,7 @@
     "@supabase/supabase-js": "^2.1.1",
     "express": "^4.18.1",
     "highlight.js": "^11.7.0",
+    "node-fetch": "^2.6.9",
     "nodemon": "^2.0.19",
     "prismjs": "^1.29.0",
     "sirv-cli": "^2.0.2",

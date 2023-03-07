@@ -2,7 +2,7 @@
   async function postMonitor() {
     try {
       let response = await fetch(
-        `https://analysis.ccbluex.net/api/monitor/add`,
+        `https://analytics.ccbluex.net/api/monitor/add`,
         {
           method: "POST",
           mode: "no-cors",

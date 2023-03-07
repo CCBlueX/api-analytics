@@ -5,7 +5,7 @@
     setState("loading");
     try {
       const response = await fetch(
-        `https://analysis.ccbluex.net/api/user-id/${apiKey}`
+        `https://analytics.ccbluex.net/api/user-id/${apiKey}`
       );
 
       if (response.status == 200) {
