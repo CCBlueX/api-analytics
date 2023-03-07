@@ -9,7 +9,7 @@
     userID = formatUUID(userID);
     try {
       const response = await fetch(
-        `https://api-analytics-server.vercel.app/api/monitor/pings/${userID}`
+        `https://analysis.ccbluex.net/api/monitor/pings/${userID}`
       );
       if (response.status == 200) {
         const json = await response.json();

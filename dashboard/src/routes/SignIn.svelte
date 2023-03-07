@@ -5,7 +5,7 @@
     setState("loading");
     try {
       const response = await fetch(
-        `https://api-analytics-server.vercel.app/api/user-id/${apiKey}`
+        `https://analysis.ccbluex.net/api/user-id/${apiKey}`
       );
 
       if (response.status == 200) {

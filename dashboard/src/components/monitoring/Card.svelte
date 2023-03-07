@@ -8,7 +8,7 @@
 
     try {
       let response = await fetch(
-        "https://api-analytics-server.vercel.app/api/monitor/delete",
+        "https://analysis.ccbluex.net/api/monitor/delete",
         {
           method: "POST",
           mode: "no-cors",

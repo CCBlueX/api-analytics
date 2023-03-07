@@ -130,7 +130,7 @@ fn extract_ip_address(req: &Request<Body>) -> String {
 
 fn log_request(data: Data) {
     let _ = Client::new()
-        .post("https://api-analytics-server.vercel.app/api/log-request")
+        .post("https://analysis.ccbluex.net/api/log-request")
         .json(&data)
         .send();
 }

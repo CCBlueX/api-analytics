@@ -2,7 +2,7 @@
   async function postMonitor() {
     try {
       let response = await fetch(
-        `https://api-analytics-server.vercel.app/api/monitor/add`,
+        `https://analysis.ccbluex.net/api/monitor/add`,
         {
           method: "POST",
           mode: "no-cors",

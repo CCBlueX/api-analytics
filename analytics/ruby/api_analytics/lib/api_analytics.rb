@@ -37,7 +37,7 @@ module Analytics
     private
 
     def log_request(data)
-      uri = URI('https://api-analytics-server.vercel.app/api/log-request')
+      uri = URI('https://analysis.ccbluex.net/api/log-request')
       res = Net::HTTP.post(uri, data.to_json)
     end
   end

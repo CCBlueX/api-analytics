@@ -84,7 +84,7 @@
     userID = formatUUID(userID);
     try {
       const response = await fetch(
-        `https://api-analytics-server.vercel.app/api/requests/${userID}`
+        `https://analysis.ccbluex.net/api/requests/${userID}`
       );
       if (response.status == 200) {
         const json = await response.json();

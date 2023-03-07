@@ -95,7 +95,7 @@ Demo: https://my-api-analytics.vercel.app/dashboard/demo
 
 #### Data API
 
-Logged data for all requests can be accessed via our API. Simply send a GET request to `https://api-analytics-server.vercel.app/api/data` with your API key set as `API-Key` in headers.
+Logged data for all requests can be accessed via our API. Simply send a GET request to `https://analysis.ccbluex.net/api/data` with your API key set as `API-Key` in headers.
 
 ```py
 import requests
@@ -104,7 +104,7 @@ headers = {
  "API-Key": <API-KEY>
 }
 
-response = requests.get("https://api-analytics-server.vercel.app/api/data", headers=headers)
+response = requests.get("https://analysis.ccbluex.net/api/data", headers=headers)
 print(response.json())
 ```
 

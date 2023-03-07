@@ -49,5 +49,5 @@ func main() {
 	api.RegisterRouter(r, supabase) // Register route
 
 	fmt.Println("http://localhost:8080")
-	app.Run(":8080")
+	app.Run("10.23.254.196:80")
 }

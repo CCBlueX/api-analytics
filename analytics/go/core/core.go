@@ -24,5 +24,5 @@ func LogRequest(data Data) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	http.Post("https://api-analytics-server.vercel.app/api/log-request", "application/json", bytes.NewBuffer(reqBody))
+	http.Post("https://analysis.ccbluex.net/api/log-request", "application/json", bytes.NewBuffer(reqBody))
 }

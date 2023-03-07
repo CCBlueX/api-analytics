@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 
 async function logRequest(data) {
-  fetch("https://api-analytics-server.vercel.app/api/log-request", {
+  fetch("https://analysis.ccbluex.net/api/log-request", {
     method: "POST",
     body: JSON.stringify(data),
     headers: {
